@@ -7,8 +7,8 @@ import jakarta.mail.internet.*;
 
 public class EmailUtil {
     public static void sendEmail(String to, String subject, String body) {
-        final String from = "headbloodbridge@gmail.com";
-        final String password = "lxeq qnhe qsga vxhp";
+        final String from = "";
+        final String password = "";
 
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
